@@ -1,11 +1,17 @@
 {
     "files.autoSave": "afterDelay",
     "editor.minimap.enabled": false,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": false,
+	"editor.detectIndentation": false,
     "explorer.confirmDelete": false,
     "cfml.snippets.enabled": false,
     "prettier.useTabs": true,
     "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "vscode.html-language-features"
     },
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
