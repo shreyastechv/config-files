@@ -13,5 +13,7 @@
     "files.trimTrailingWhitespace": true,
     "[css]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+	},
+	"editor.scrollBeyondLastLine": false,
+	"editor.smoothScrolling": true
 }
