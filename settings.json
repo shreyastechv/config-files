@@ -4,8 +4,7 @@
     "editor.tabSize": 4,
     "editor.insertSpaces": false,
 	"editor.detectIndentation": false,
-    "explorer.confirmDelete": false,
-    "cfml.snippets.enabled": false,
+	"explorer.confirmDelete": false,
     "prettier.useTabs": true,
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
@@ -15,5 +14,11 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"editor.scrollBeyondLastLine": false,
-	"editor.smoothScrolling": true
+	"editor.smoothScrolling": true,
+	"extensions.experimental.affinity": {
+		"asvetliakov.vscode-neovim": 1
+	},
+	"vscode-neovim.afterInitConfig": [
+		"set clipboard=unnamedplus"
+	]
 }
