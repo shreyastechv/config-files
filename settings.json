@@ -19,6 +19,12 @@
 		"asvetliakov.vscode-neovim": 1
 	},
 	"vscode-neovim.afterInitConfig": [
-		"set clipboard=unnamedplus"
-	]
+		"set clipboard=unnamedplus",
+		"set scrolloff=8",
+		"nnoremap <C-d> <C-d>zz",
+		"nnoremap <C-u> <C-u>zz"
+	],
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
 }
