@@ -27,6 +27,30 @@
 	"vim.useSystemClipboard": true,
 	"vim.normalModeKeyBindings": [
 		{
+            "before": ["<leader>", "f", "f"],
+            "commands": [
+                "workbench.action.quickOpen",
+            ],
+            "silent": true
+        },
+		{
+            "before": ["<leader>", "f", "r"],
+            "commands": [
+                "workbench.action.openRecent",
+            ],
+            "silent": true
+        },
+		{
+            "before": ["<leader>", "f", "t"],
+            "commands": [
+                "workbench.action.findInFiles",
+            ],
+            "silent": true
+        }
+	],
+	"vim.sneakUseIgnorecaseAndSmartcase": true,
+	"vim.normalModeKeyBindingsNonRecursive": [
+		{
             "before": ["<C-d>"],
             "after": ["<C-d>", "z", "z"]
         },
@@ -35,9 +59,8 @@
             "after": ["<C-u>", "z", "z"]
         }
 	],
-	"vim.sneakUseIgnorecaseAndSmartcase": true,
-	"vim.normalModeKeyBindingsNonRecursive": [
-	],
+	"vim.leader": "<space>",
 	"editor.cursorSurroundingLinesStyle": "all",
-	"editor.cursorSurroundingLines": 10
+	"editor.cursorSurroundingLines": 10,
+	"editor.occurrencesHighlight": "off"
 }
