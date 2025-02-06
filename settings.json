@@ -57,10 +57,20 @@
 		{
             "before": ["<C-u>"],
             "after": ["<C-u>", "z", "z"]
+        },
+		{
+            "before": ["n"],
+            "after": ["n", "z", "z", "z", "v"]
+        },
+		{
+            "before": ["N"],
+            "after": ["N", "z", "z", "z", "v"]
         }
 	],
 	"vim.leader": "<space>",
 	"editor.cursorSurroundingLinesStyle": "all",
 	"editor.cursorSurroundingLines": 10,
-	"editor.occurrencesHighlight": "off"
+	"editor.occurrencesHighlight": "off",
+	"cfml.autoCloseTags.enable": false,
+	"git.autofetch": true
 }
