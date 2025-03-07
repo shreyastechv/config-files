@@ -34,9 +34,16 @@
             "silent": true
         },
 		{
-            "before": ["<leader>", "f", "r"],
+            "before": ["<leader>", "f", "p"],
             "commands": [
                 "workbench.action.openRecent",
+            ],
+            "silent": true
+        },
+		{
+            "before": ["<leader>", "t", "e"],
+            "commands": [
+                "workbench.action.toggleSidebarVisibility",
             ],
             "silent": true
         },
@@ -72,5 +79,9 @@
 	"editor.cursorSurroundingLines": 10,
 	"editor.occurrencesHighlight": "off",
 	"cfml.autoCloseTags.enable": false,
-	"git.autofetch": true
+	"git.autofetch": true,
+	"hideComments.foldOnHide": false,
+	"editor.renderWhitespace": "all",
+	"workbench.startupEditor": "none",
+	"git.confirmSync": false
 }
