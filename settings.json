@@ -1,87 +1,130 @@
 {
-    "files.autoSave": "afterDelay",
-    "editor.minimap.enabled": false,
-    "editor.tabSize": 4,
-    "editor.insertSpaces": false,
-	"editor.detectIndentation": false,
+	"files.autoSave": "afterDelay",
+	"editor.minimap.enabled": false,
+	"editor.tabSize": 2,
+	"editor.insertSpaces": false,
 	"explorer.confirmDelete": false,
-    "prettier.useTabs": true,
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "files.trimTrailingWhitespace": true,
-    "[css]": {
-        "editor.defaultFormatter": "vscode.css-language-features"
+	"prettier.useTabs": true,
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
 	},
 	"editor.scrollBeyondLastLine": false,
 	"editor.smoothScrolling": true,
 	"extensions.experimental.affinity": {
 		"asvetliakov.vscode-neovim": 1
 	},
-	"vscode-neovim.afterInitConfig": [
-	],
+	"vscode-neovim.afterInitConfig": [],
 	"[javascript]": {
 		"editor.defaultFormatter": "vscode.typescript-language-features"
 	},
-	"editor.lineNumbers": "relative",
 	"vim.useSystemClipboard": true,
 	"vim.normalModeKeyBindings": [
 		{
-            "before": ["<leader>", "f", "f"],
-            "commands": [
-                "workbench.action.quickOpen",
-            ],
-            "silent": true
-        },
+			"before": [
+				"<leader>",
+				"f",
+				"f"
+			],
+			"commands": [
+				"workbench.action.quickOpen",
+			],
+			"silent": true
+		},
 		{
-            "before": ["<leader>", "f", "p"],
-            "commands": [
-                "workbench.action.openRecent",
-            ],
-            "silent": true
-        },
+			"before": [
+				"<leader>",
+				"f",
+				"p"
+			],
+			"commands": [
+				"workbench.action.openRecent",
+			],
+			"silent": true
+		},
 		{
-            "before": ["<leader>", "t", "e"],
-            "commands": [
-                "workbench.action.toggleSidebarVisibility",
-            ],
-            "silent": true
-        },
+			"before": [
+				"<leader>",
+				"t",
+				"e"
+			],
+			"commands": [
+				"workbench.action.toggleSidebarVisibility",
+			],
+			"silent": true
+		},
 		{
-            "before": ["<leader>", "f", "t"],
-            "commands": [
-                "workbench.action.findInFiles",
-            ],
-            "silent": true
-        }
+			"before": [
+				"<leader>",
+				"f",
+				"t"
+			],
+			"commands": [
+				"workbench.action.findInFiles",
+			],
+			"silent": true
+		}
 	],
 	"vim.sneakUseIgnorecaseAndSmartcase": true,
 	"vim.normalModeKeyBindingsNonRecursive": [
 		{
-            "before": ["<C-d>"],
-            "after": ["<C-d>", "z", "z"]
-        },
+			"before": [
+				"<C-d>"
+			],
+			"after": [
+				"<C-d>",
+				"z",
+				"z"
+			]
+		},
 		{
-            "before": ["<C-u>"],
-            "after": ["<C-u>", "z", "z"]
-        },
+			"before": [
+				"<C-u>"
+			],
+			"after": [
+				"<C-u>",
+				"z",
+				"z"
+			]
+		},
 		{
-            "before": ["n"],
-            "after": ["n", "z", "z", "z", "v"]
-        },
+			"before": [
+				"n"
+			],
+			"after": [
+				"n",
+				"z",
+				"z",
+				"z",
+				"v"
+			]
+		},
 		{
-            "before": ["N"],
-            "after": ["N", "z", "z", "z", "v"]
-        }
+			"before": [
+				"N"
+			],
+			"after": [
+				"N",
+				"z",
+				"z",
+				"z",
+				"v"
+			]
+		}
 	],
 	"vim.leader": "<space>",
 	"editor.cursorSurroundingLinesStyle": "all",
-	"editor.cursorSurroundingLines": 10,
 	"editor.occurrencesHighlight": "off",
 	"cfml.autoCloseTags.enable": false,
 	"git.autofetch": true,
 	"hideComments.foldOnHide": false,
 	"editor.renderWhitespace": "all",
 	"workbench.startupEditor": "none",
-	"git.confirmSync": false
+	"git.confirmSync": false,
+	"git.blame.editorDecoration.enabled": false,
+	"git.blame.statusBarItem.enabled": true,
+	"editor.trimAutoWhitespace": false,
+	"diffEditor.ignoreTrimWhitespace": false
 }
